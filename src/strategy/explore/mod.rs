@@ -8,6 +8,7 @@ pub use self::random::RandomExploration;
 use crate::mdp::{Agent, State};
 
 pub mod random;
+pub mod epsilon_greedy;
 
 /// Trait for exploration strategies. An exploration strategy decides, based on an `Agent`, which
 /// action to take next.
